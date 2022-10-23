@@ -11,41 +11,41 @@ TEMPLATE_FILE = "./template.docx"
 """
 The domain used for sending emails when using a text file.
 """
-COLLEGE_EMAIL_DOMAIN = "ucc.mx"
+COLLEGE_EMAIL_DOMAIN = "college.com"
 
 """
 Dummy array when using the --dry-run flag.
 """
-TEST_ATTENDEES = [["Your Name", "email@email.email"]]
+TEST_ATTENDEES = [["Your Name", "email@domain.com"]]
 
 """
 Event name used in the certificate and email, without quotes.
 """
-EVENT_NAME = "Creación de aplicaciones web en la nube"
+EVENT_NAME = "My Event Name"
 
 """
 Name of the MLSA student that organized the event.
 """
-HOST_NAME = "Diego Melo"
+HOST_NAME = "John Doe"
 
 """
 Subject of the email sent to each attendee.
 """
-EMAIL_SUBJECT = 'MLSA - Certificado de participación'
+EMAIL_SUBJECT = 'MLSA - Attendance certificate'
 
 """
 Body of the email sent to each attendee.
 """
-EMAIL_BODY = f"""Excelente día:
+EMAIL_BODY = f"""Excelent day:
 
-Hago entrega del certificado de participación en el evento "Creación de aplicaciones web en la nube" el jueves 20 de octubre a las 9 de la mañana. Muchas gracias por acompañarnos durante la hora, esperando verte en el siguiente ;)
+Find attached your participation certificate from the event {EVENT_NAME} on October 20th. Thanks again for joining us during the event, hoping to see you again in the next one! ;)
 
-Saludos,
+Greetings,
 
 {HOST_NAME}
 Alpha Microsoft Learn Student Ambassador
-+52 229 242 5177
-GitHub: POWRFULCOW89
-LinkedIn: diego-melo-mx
++52 123 456 7890
+GitHub: john-doe
+LinkedIn: john-doe
 
 """
